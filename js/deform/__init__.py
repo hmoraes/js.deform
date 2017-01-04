@@ -131,6 +131,9 @@ def auto_need(form):
         for resource in resources:
             resource.need()
 
+    if form.use_ajax:
+        jquery_form.need()
+
 
 def includeme(config=None):
 
