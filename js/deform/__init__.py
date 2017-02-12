@@ -4,6 +4,7 @@ from deform import Form, ValidationFailure
 from fanstatic import Group
 from fanstatic import Library
 from fanstatic import Resource
+from js.bootstrap_daterangepicker import daterangepicker
 from js.jquery import jquery
 from js.jquery_form import jquery_form
 from js.jquery_maskedinput import jquery_maskedinput
@@ -361,6 +362,7 @@ resource_mapping = {
     'jquery.maskedinput': [jquery_maskedinput, ],
     'jqueryui': [ui_autocomplete, ui_datepicker, ui_sortable, ],
     'modernizr': [modernizr, ],
+    'daterangepicker': [daterangepicker, ],
     'pickadate': [pickadate, ],
     'select2': [select2, ],
     'sortable': [jquery_sortable, ],

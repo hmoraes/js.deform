@@ -51,6 +51,7 @@ setup(
     install_requires=[
         'deform>=2.0.3',
         'fanstatic',
+        'js.bootstrap_daterangepicker',
         'js.jquery',
         'js.jquery_form',
         'js.jquery_maskedinput',
